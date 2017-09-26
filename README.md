@@ -26,5 +26,17 @@ PLEASE NOTE! Most scripts prompt the user for at least one file. So, if it looks
   <img src="readme-img/fig1.png" width="700"/>
 </p>
 
+**Figure 1. An example of the R/RStudio setup to run the NGS-usat scripts. The NGS-usat scripts are loaded in different tabs in the sourcing panel in the top-left corner (highlighted in blue).**
+
+
+**2.2 –** The ‘prepare_data.R’ script is the script that reads and reformats the raw demultiplexed ‘.fasta’ or ‘.fastq’ files. So, there should be no ‘formatting’ of the raw data needed. However, to make the script run, the database in which the files are stored ought to have a particular structure. This structure should be intuitive.
+
+The raw files ought to have been de-multiplexed to separate out runs of individual loci and of individual samples. The files for all individuals processed at a given locus ought to be placed in a separate folder with the name of the locus. So, for example, the files for all individuals genotyped at “Omy325” are put into a “Omy325” folder (Figure 2).
+
+<p align="center">
+  <img src="readme-img/fig2.png" width="400"/>
+</p>
+
+
 
 
