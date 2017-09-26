@@ -1,8 +1,8 @@
 #Update_scores.R 
-#reads scored data from autoscr_locus.R and reproduces 
+#reads scored data from autoscr_locus.R (filename.rda) and reproduces 
 #scanning plots for individuals. Allows individuals scores to be 
 #adjusted by using the mouse to click on likely peaks.
-#Data in the saved score file can be updated. 
+#Data in the saved score file is updated. 
 
 #written by dr March 2016
 
