@@ -1,8 +1,11 @@
 #Prepare_data.R 
-#bioinformatics in R using bioconductor scripts and tools.
-#Written to prepare the data for usat scoring by opening all listed files,
-#checking that they can be used and preparing a freq.dist to be processed in
+#bioinformatics framework using R and R-based bioconductor scripts and tools.
+#Written to prepare the raw data for usat scoring by opening all listed files,
+#checking that files can be used and preparing a freq.dist to be processed in
 #the next autoscr_locus.r script. 
+
+#raw reads ought to be de-multiplexed by individual and locus
+#this script recognises either fasta or fastq formats
 
 #Use shift & right click on mouse to copy files to text in textpad
 #list should start with "ind"
