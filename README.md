@@ -22,7 +22,10 @@ The easiest way to run the scripts is through the RStudio interface. Once RStudi
 
 PLEASE NOTE! Most scripts prompt the user for at least one file. So, if it looks as if R has stalled, it may very likely be that there is a dialog box waiting for user input. It might be wise to leave part of the desktop available to see ‘file choose’ dialog boxes. 
 
-
+<p align="center">
+  <img src="NGS-usat/readme-img/fig1.png" width="350"/>
+  <img src="NGS-usat/readme-img/fig1.png" width="350"/>
+</p>
 
 
 
