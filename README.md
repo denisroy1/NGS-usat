@@ -144,7 +144,7 @@ Each individial’s trace is generated and saved as a ‘X.jpeg’ file (where X
 **5.3 –** Once the data file (‘.rda’) and the redo list (‘.redl’ or whatever extension was given) are read into R, the script will initiate a plot in the XQuartz (Mac OSX stand-alone R) or Plots display panel (RStudio). This plot ought to look similar to that shown in Figure 11A & B. The plot is essentially the same as the trace(s) created from the ‘autoscr_locus.R’ script except that the allele markers (in red) have been removed and the previous score attributed to the profile are in light blue colour (sometimes hard to see).
 
 <p align="center">
-  <img src="readme-img/fig11.png" width="1000"/>
+  <img src="readme-img/fig11.png" width="800"/>
 </p>
 
 **Figure 11. (a & b) Initial plots of some redos for oneu8. The title has switch to green indicating that the figure is available for, or has been edited through, the ‘update_scores.R’ script. The information in the initial plots is similar to that described in Figure 7, but the allelic markers (in red) have been omitted. The previously established score for allelic profiles are displayed in light blue (sometimes difficult to see). The cursor is placed over the peaks of interest, and clicking the mouse re-scores the profile. (c & d) Once re-scored, the newly selected alleles appear on the plot and these are also updated both in the actual saved traces (in the ‘-traces’ folder) and in the ‘.scores’ file.**
