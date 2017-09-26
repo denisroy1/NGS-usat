@@ -19,7 +19,12 @@ Release 1.0 — Sept 2017
 
 * PLEASE NOTE! RStudio works on Mac/Windows/Unix/Linux platforms, but the latest Mac and Windows version is 64bit only. This means the JAVA version on Windows has to be the 64bit application which is available here (https://java.com/en/download/faq/java_win64bit.xml#Java%20for%2064-bit). On Macs the newest OS (Sierra 10.12.6) still doesn’t incorporate the XQuartz.app. So, even if you end up using RStudio to run the NGS-usat scripts, the updated XQuartz app is still needed.
 
-**1.4 –** For list creation and manipulation, we recommend using Textpad® in Windows. However, any basic text editor will do, so long as it doesn’t introduce silent/unseen characters (MS WORD, not a good candidate). Mac OSX users can find the equivalent (or better) text manipulation using TextWrangler®. Both are free and easily installed.
+**1.4 –** For list creation and manipulation, we recommend using Textpad® in Windows. However, any basic text editor will do, so long as it doesn’t introduce silent/unseen characters (MS WORD is NOT a good candidate). MacOS users can find the equivalent (or better) text manipulation using TextWrangler®. Both are free and easily installed.
+
+**1.5 –** In RStudio/R the following packages need to be installed from the CRAN mirror or BIOCONDUCTOR sources (see 1.1 above).
+* R packages: zoo, xts, TTR, pracma, parallel, tcltk, foreach, plyr, dplyr, data.table 
+* BIOCONDUCTOR packages: BiocGenerics, IRanges, XVector, S4Vectors, Biostrings, 
+Appropriate packages will be loaded automatically once the program is initiated, but package libraries need to be installed for them to be accessible.
 
 ## 2 – NGS-usat Introduction and Setup:
 
