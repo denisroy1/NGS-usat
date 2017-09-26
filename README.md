@@ -37,6 +37,7 @@ The raw files ought to have been de-multiplexed to separate out runs of individu
   <img src="readme-img/fig2.png" width="400"/>
 </p>
 
+**Figure 2. Database structure for NGS-usat, where all ‘.fasta’ or ‘.fastq’ files for a given locus are placed in a locus-specific folder.**
 
 
 
