@@ -20,7 +20,7 @@
 
 The easiest way to run the scripts is through the RStudio interface. Once RStudio is loaded and running, open the scripts in the ‘sourcing’ tab (Figure 1). Highlight the script in its entirety and press the enter/return key while holding down the CTRL/CMD key (in Windows or Mac, respectively). This will activate the script(s) and will prompt users for appropriate files. 
 
-PLEASE NOTE! Most scripts prompt the user for at least one file. So, if it looks as if R has stalled, it may very likely be that there is a dialog box waiting for user input. It might be wise to leave part of the desktop available to see ‘file choose’ dialog boxes. 
+* PLEASE NOTE! Most scripts prompt the user for at least one file. So, if it looks as if R has stalled, it may very likely be that there is a dialog box waiting for user input. It might be wise to leave part of the desktop available to see ‘file choose’ dialog boxes. 
 
 <p align="center">
   <img src="readme-img/fig1.png" width="700"/>
@@ -38,6 +38,24 @@ The raw files ought to have been de-multiplexed to separate out runs of individu
 </p>
 
 **Figure 2. Database structure for NGS-usat, where all ‘.fasta’ or ‘.fastq’ files for a given locus are placed in a locus-specific folder.**
+
+**2.3 –** The next step is to create a list file of the data to process for each locus. The list file is just a text based file listing all individual ‘.fasta’ or ‘.fastq’ files (hopefully corresponding to individuals genotyped) for a given locus. The file ought to have the simple header “ind” and each entry should include the path and filename of the files to be processed. The example below shows a typical list file (Figure 3). 
+
+<p align="center">
+  <img src="readme-img/fig3.png" width="500"/>
+</p>
+
+**Figure 3. Typical list file generated for running the NGS-usat series of scripts. Each new locus processed ought to have its own list file listing all files to be processed (including path and filename). All list files ought to also have the ‘ind’ header on the first line.**
+
+**2.4 –** A ‘.params’ parameter file is also needed to process the data (Figure 4). This file lists the name of the usat being processed (should be near 6 alphanumeric characters, but slightly longer also works), the actual repeat and the most likely usat flanking regions. The repeat unit(s) of the microsatellites to be processed must be specified, because this is what the script ‘looks’ for. Misidentification here can lead to several issues, chief among them being messy and non-sensical calls. NGS-usat will not identify new microsatellite loci in raw sequence data. Other programs can do this but these are more sequence mining softwares. NGS-usat does not fall into this category. IT IS STRICTLY USED FOR ALREADY DEVELOPED USAT LOCI. 
+
+* PLEASE NOTE! Although the repeat unit must be specified correctly, much less stringencies are applied to the flanking regions surrounding the microsatellite. The forward flanking region (ffr) and the reverse flanking region (rfr) may or may not be specified. Moreover, if specified, they can simply be a ‘best guess’ to actual flanking regions and the script(s) are flexible enough to trim them even if the matches aren’t perfect. Even if some, or the entire flanking regions aren’t trimmed, the script(s) essentially ignore sequence outside the repeats, irrespective of whether the flanking regions are trimmed or not. Having said this, the script(s) is much more efficient when flanking regions have been removed. 
+
+<p align="center">
+  <img src="readme-img/fig4.png" width="500"/>
+</p>
+
+**Figure 4. An example ‘.params’ file essential for preparing and scoring microsatellite data, listing the marker, the repeat (obligatory) and the forward, and reverse flanking regions (optional).**
 
 
 
