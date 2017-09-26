@@ -1,6 +1,7 @@
 #autoscr_locus.R
-#Scanning frequency distribution created by prepare_data.R 
-#and to find most likely alleles
+#2nd script in the NGS-usat bioinformatics framework
+#This script aligns all individual-based frequency distributions created by prepare_data.R 
+#and scans each one to find most likely alleles
 
 #written by dr Feb 2016
 
