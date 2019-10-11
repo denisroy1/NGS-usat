@@ -9,7 +9,7 @@
 
 #Use shift & right click on mouse to copy files to text in textpad
 #list should start with "ind"
-#dr Aug 2013: updated Jul 2015
+#dr Aug 2013: updated Jul 2015, updated Feb 2016, Oct 2019
 
 rm(list=ls())
 #re-setting all instances
