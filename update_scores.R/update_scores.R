@@ -4,7 +4,7 @@
 #adjusted by using the mouse to click on likely peaks.
 #Data in the saved score file is updated. 
 
-#written by dr March 2016
+#written by dr March 2016, updated Oct 2019
 
 rm(list=ls())
 
