@@ -2,12 +2,15 @@
 
 ### An R based bioinformatics framework for scoring microsatellites generated from next generation sequencing platforms.
 
-Denis Roy1, Sarah Lehnert2, and Daniel D. Heath2
+Denis Roy1, Sarah Lehnert2, Clare Venney2, Ryan Walter3 and Daniel D. Heath2
+
 Release 1.0 — Sept 2017
 
-1- Natural Resources and the Environment, Wildlife and Fisheries Conservation Center and Center for Environmental Sciences and Engineering, University of Connecticut, 1376 Storrs Road, Unit 4087 Storrs, CT 06269-4087
+1- Natural Resource Sciences, McGill University, 21111 Rue Lakeshore Road, Sainte-Anne-de-Bellevue, QC, H9X 3V9
 
 2- Great Lakes Institute for Environmental Research, University of Windsor, 401 Sunset Ave. Windsor ON, Canada, N9B 3P4
+
+3- Department of Biological Science, California State University at Fullerton, Fullerton, CA USA 92831
 
 ## 1 – System requirements & suggestions: (what has worked for us during development)
 
