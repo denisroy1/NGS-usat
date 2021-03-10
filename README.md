@@ -4,13 +4,17 @@
 
 Denis Roy1, Sarah Lehnert2, Clare Venney2, Ryan Walter3 and Daniel D. Heath2
 
-Release 1.0 — Sept 2017; Updated Oct 2019
+Release 1.0 — Sept 2017; Updated Nov 2020
 
 1- Natural Resource Sciences, McGill University, 21111 Rue Lakeshore Road, Sainte-Anne-de-Bellevue, QC, H9X 3V9
 
 2- Great Lakes Institute for Environmental Research, University of Windsor, 401 Sunset Ave. Windsor ON, Canada, N9B 3P4
 
 3- Department of Biological Science, California State University at Fullerton, Fullerton, CA USA 92831
+
+Paper describing the script and their use is available here : http://link.springer.com/article/10.1007/s12686-020-01186-0
+
+The following provides more detail on script use and running them in the R environment.
 
 ## 1 – System requirements & suggestions: (what has worked for us during development)
 
