@@ -9,26 +9,37 @@
 
 #Use shift & right click on mouse to copy files to text in textpad
 #list should start with "ind"
-#dr Aug 2013: updated Jul 2015, updated Feb 2016, Oct 2019
+#dr Aug 2013: updated Jul 2015, updated Feb 2016, Oct 2019, Jul 2022
 
 rm(list=ls())
 #re-setting all instances
 
 t1<-Sys.time()
 
-library(Defaults)
-library(zoo)
-library(xts)
-library(TTR)
-library(pracma)
-library(parallel)
-library(BiocGenerics)
-library(IRanges)
-library(XVector)
-library(S4Vectors)
-library(Biostrings)
-library(tcltk)
+## Only run once to update Bio Conductor packages
+# if (!require("BiocManager", quietly = TRUE))
+#  install.packages("BiocManager")
+# BiocManager::install("BiocGenerics")
+# BiocManager::install("IRanges")
+# BiocManager::install("XVector")
+# BiocManager::install("Biostrings")
+
+#library(Defaults)
+
 #loading needed libraries
+{ 
+	library(zoo)
+	library(xts)
+	library(TTR)
+	library(pracma)
+	library(parallel)
+	library(BiocGenerics)
+	library(IRanges)
+	library(XVector)
+	library(S4Vectors)
+	library(Biostrings)
+	library(tcltk)
+}
 
 ############################ is.0 function #####################################
 is.num0 <- function (x) {
