@@ -4,7 +4,7 @@
 
 Denis Roy1, Sarah Lehnert2, Clare Venney2, Ryan Walter3 and Daniel D. Heath2
 
-Release 1.0 — Sept 2017; Updated Nov 2020
+Release 1.0 — Sept 2017; Updated Jul 2022
 
 1- Natural Resource Sciences, McGill University, 21111 Rue Lakeshore Road, Sainte-Anne-de-Bellevue, QC, H9X 3V9
 
