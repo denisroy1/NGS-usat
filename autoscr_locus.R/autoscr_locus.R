@@ -3,15 +3,17 @@
 #This script aligns all individual-based frequency distributions created by prepare_data.R 
 #and scans each one to find most likely alleles
 
-#written by dr Feb 2016, updated Oct 2019
+#written by dr Feb 2016, updated Oct 2019, Jul 2022
 rm(list=ls())
 
 #library(doParallel)
-library(foreach)
-library(plyr)
-library(dplyr)
-library(data.table)
-library(Biostrings)
+{
+  library(foreach)
+  library(plyr)
+  library(dplyr)
+  library(data.table)
+  library(Biostrings)
+} 
 
 ###################### fid #####################################################
 fid<-function(x) {
